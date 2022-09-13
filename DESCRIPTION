@@ -1,10 +1,10 @@
 Package: gov50data
-Title: What the Package Does (One Line, Title Case)
+Title: Datasets for Gov 50
 Version: 0.0.0.9000
 Authors@R: 
     person("Matthew", "Blackwell", , "mblackwell@gov.harvard.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-3689-9527"))
-Description: What the package does (one paragraph).
+Description: A collection of datasets for use in Gov 50 at Harvard University.
 License: MIT + file LICENSE
 Imports: tibble
 Encoding: UTF-8
