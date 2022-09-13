@@ -1,0 +1,6 @@
+data-raw/localnews_replication
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
