@@ -6,6 +6,14 @@
 #' 
 "news"
 
+#' Transphobia study data
+#'
+#' Data on an experiment to reduce anti-transgender prejuidice
+#'
+#' @source Broockman and Kalla (2016).
+#' 
+"trans"
+
 
 #' @importFrom tibble tibble
 NULL
