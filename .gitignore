@@ -4,3 +4,4 @@ data-raw/localnews_replication
 .Rdata
 .httr-oauth
 .DS_Store
+/data-raw/CES20_Common_OUTPUT_vv.dta

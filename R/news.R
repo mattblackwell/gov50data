@@ -15,5 +15,14 @@
 "trans"
 
 
+#' Selected variables from CES 2020
+#'
+#' Selected variables from the Congressional Election Study (2020)
+#'
+#' @source Ansolabehere, Schaffner, and Luks (2021).
+#' 
+"cces_2020"
+
+
 #' @importFrom tibble tibble
 NULL
