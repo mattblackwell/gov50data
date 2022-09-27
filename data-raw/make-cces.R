@@ -13,7 +13,7 @@ cces_2020 <- cces |>
     educ = as_factor(educ),
     race = as_factor(race),
     pid3 = as_factor(pid3),
-    turnout_self = zap_labels(CC20_401),
+    turnout_self = if_else(zap_labels(CC20_401) == 5, "Voted", "Didn't Vote"),
     pres_vote = as_factor(CC20_410)
     ) |>
   select(gender, race, educ, pid3, turnout_self, pres_vote)
