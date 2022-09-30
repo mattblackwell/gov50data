@@ -9,7 +9,7 @@ mortality <- read_csv("API_SH.DYN.MORT_DS2_en_csv_v2_4522456.csv",
 regions <- c(
   "Africa Eastern and Southern",
   "Africa Western and Central",
-  "Arab Wrold",
+  "Arab World",
   "Central Europe and the Baltics",
   "Caribbean small states",
   "East Asia & Pacific (excluding high income)",
