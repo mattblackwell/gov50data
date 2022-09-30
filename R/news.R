@@ -23,6 +23,14 @@
 #' 
 "cces_2020"
 
+#' Under-5 child mortality data, World Bank
+#'
+#' Data on under 5 child mortality per 1,000 live births
+#'
+#' @source https://data.worldbank.org/indicator/SH.DYN.MORT
+#' 
+"mortality"
+
 
 #' @importFrom tibble tibble
 NULL
