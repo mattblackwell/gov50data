@@ -5,7 +5,7 @@
 \alias{mortality}
 \title{Under-5 child mortality data, World Bank}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 266 rows and 65 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 217 rows and 52 columns.
 }
 \source{
 https://data.worldbank.org/indicator/SH.DYN.MORT

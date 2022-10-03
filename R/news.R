@@ -31,6 +31,17 @@
 #' 
 "mortality"
 
+#' COVID-19 vaccination and Democratic voting
+#'
+#' Data on county-level vaccination rates and presidential voting
+#'
+#' @source
+#' https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh
+#'
+#' https://electionlab.mit.edu/data
+#' 
+"covid_votes"
+
 
 #' @importFrom tibble tibble
 NULL
