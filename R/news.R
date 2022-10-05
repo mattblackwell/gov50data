@@ -42,6 +42,18 @@
 #' 
 "covid_votes"
 
+#' Spotify US ranking data, 2020
+#'
+#' Ranks of 50 most popular songs streamd by Spotify users in the US,
+#' during 2020
+#'
+#' @source https://www.kaggle.com/datasets/yujisato/spotify-us-weekly-top200
+#'
+#' 
+"spotify"
+
+
+
 
 #' @importFrom tibble tibble
 NULL
