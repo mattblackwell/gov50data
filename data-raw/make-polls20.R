@@ -10,7 +10,7 @@ state_df <- tibble(
   state = state.name,
   state_po = state.abb
 ) |>
-  bind_rows(tibble(state = "US", state_po = "US"))
+  bind_rows(tibble(state = "District of Columbia", state_po = "DC"))
 
 national_polls20 <- polls20 |>
   mutate(

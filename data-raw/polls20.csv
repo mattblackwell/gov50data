@@ -56,6 +56,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-11-02,GA,1,SurveyMonkey,3962,50,48
 2020-11-02,FL,1,SurveyMonkey,8792,49,49
 2020-11-02,DE,1,SurveyMonkey,656,60,38
+2020-11-02,DC,1,SurveyMonkey,495,94,5
 2020-11-02,CT,1,SurveyMonkey,2031,60,38
 2020-11-02,CO,1,SurveyMonkey,2991,55,44
 2020-11-02,CA,1,SurveyMonkey,12370,62,36
@@ -180,6 +181,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-11-01,HI,2,SurveyMonkey,619,66,31
 2020-11-01,FL,2,SurveyMonkey,7796,48,50
 2020-11-01,DE,2,SurveyMonkey,588,61,38
+2020-11-01,DC,2,SurveyMonkey,457,94,5
 2020-11-01,CT,2,SurveyMonkey,1867,60,38
 2020-11-01,CO,2,SurveyMonkey,2677,55,43
 2020-11-01,CA,2,SurveyMonkey,10925,62,36
@@ -300,6 +302,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-30,AZ,4,SSRS,865,50,46
 2020-10-30,NC,4,SSRS,901,51,45
 2020-10-30,MA,4,MassINC Polling Group,929,62,28
+2020-10-30,DC,4,SurveyMonkey,483,93,6
 2020-10-30,WY,4,SurveyMonkey,378,33,65
 2020-10-30,WV,4,SurveyMonkey,805,32,66
 2020-10-30,WI,4,SurveyMonkey,2509,54,44
@@ -341,6 +344,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-30,HI,4,SurveyMonkey,646,65,32
 2020-10-30,FL,4,SurveyMonkey,7604,48,50
 2020-10-30,DE,4,SurveyMonkey,668,60,39
+2020-10-30,DC,4,SurveyMonkey,501,93,6
 2020-10-30,CT,4,SurveyMonkey,1907,61,38
 2020-10-30,CO,4,SurveyMonkey,2896,56,43
 2020-10-30,CA,4,SurveyMonkey,10929,62,36
@@ -412,6 +416,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-29,HI,5,SurveyMonkey,649,65,32
 2020-10-29,GA,5,SurveyMonkey,3755,50,48
 2020-10-29,DE,5,SurveyMonkey,696,60,39
+2020-10-29,DC,5,SurveyMonkey,490,93,6
 2020-10-29,CT,5,SurveyMonkey,1971,60,39
 2020-10-29,CA,5,SurveyMonkey,11171,62,36
 2020-10-29,AZ,5,SurveyMonkey,3463,52,46
@@ -494,6 +499,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-28,GA,6,SurveyMonkey,7019,50,48
 2020-10-28,FL,6,SurveyMonkey,14571,48,50
 2020-10-28,DE,6,SurveyMonkey,1323,62,37
+2020-10-28,DC,6,SurveyMonkey,969,89,9
 2020-10-28,CT,6,SurveyMonkey,3782,63,35
 2020-10-28,CO,6,SurveyMonkey,5925,59,40
 2020-10-28,AZ,6,SurveyMonkey,5687,52,46
@@ -560,6 +566,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-27,GA,7,SurveyMonkey,6720,50,48
 2020-10-27,FL,7,SurveyMonkey,14202,48,50
 2020-10-27,DE,7,SurveyMonkey,1288,61,37
+2020-10-27,DC,7,SurveyMonkey,940,89,9
 2020-10-27,CT,7,SurveyMonkey,3632,63,35
 2020-10-27,CO,7,SurveyMonkey,5785,59,39
 2020-10-27,CA,7,SurveyMonkey,22170,61,37
@@ -671,6 +678,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-25,KY,9,SurveyMonkey,3381,42,57
 2020-10-25,IL,9,SurveyMonkey,7649,57,40
 2020-10-25,FL,9,SurveyMonkey,14053,48,49
+2020-10-25,DC,9,SurveyMonkey,914,88,10
 2020-10-25,CA,9,SurveyMonkey,22234,62,36
 2020-10-25,AZ,9,SurveyMonkey,5568,53,46
 2020-10-25,AL,9,SurveyMonkey,3122,38,61
@@ -731,6 +739,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-24,IA,10,SurveyMonkey,2760,49,49
 2020-10-24,GA,10,SurveyMonkey,6530,50,49
 2020-10-24,DE,10,SurveyMonkey,1194,62,36
+2020-10-24,DC,10,SurveyMonkey,902,89,10
 2020-10-24,CA,10,SurveyMonkey,22268,62,36
 2020-10-23,PA,11,Gravis Marketing,602,51,44
 2020-10-23,WI,11,Gravis Marketing,677,54,43
@@ -767,6 +776,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-23,GA,11,SurveyMonkey,6507,50,49
 2020-10-23,FL,11,SurveyMonkey,14035,48,49
 2020-10-23,DE,11,SurveyMonkey,1182,62,36
+2020-10-23,DC,11,SurveyMonkey,888,89,9
 2020-10-23,CO,11,SurveyMonkey,5623,59,40
 2020-10-23,CA,11,SurveyMonkey,22491,62,36
 2020-10-23,AL,11,SurveyMonkey,3093,38,61
@@ -842,6 +852,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-22,ID,12,SurveyMonkey,1625,40,58
 2020-10-22,HI,12,SurveyMonkey,1137,65,33
 2020-10-22,GA,12,SurveyMonkey,6533,50,49
+2020-10-22,DC,12,SurveyMonkey,874,89,9
 2020-10-22,CO,12,SurveyMonkey,5598,58,40
 2020-10-22,CA,12,SurveyMonkey,22654,62,36
 2020-10-22,AZ,12,SurveyMonkey,5836,53,46
@@ -894,6 +905,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-21,GA,13,SurveyMonkey,6420,49,49
 2020-10-21,FL,13,SurveyMonkey,14142,48,50
 2020-10-21,DE,13,SurveyMonkey,1120,63,36
+2020-10-21,DC,13,SurveyMonkey,825,88,9
 2020-10-21,CT,13,SurveyMonkey,3224,62,36
 2020-10-21,CO,13,SurveyMonkey,5545,58,40
 2020-10-21,CA,13,SurveyMonkey,22980,62,36
@@ -1002,6 +1014,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-20,NY,14,SurveyMonkey,9973,65,33
 2020-10-20,MD,14,SurveyMonkey,4780,67,32
 2020-10-20,FL,14,SurveyMonkey,14175,49,49
+2020-10-20,DC,14,SurveyMonkey,796,88,10
 2020-10-20,CO,14,SurveyMonkey,5416,58,40
 2020-10-20,AZ,14,SurveyMonkey,5843,53,45
 2020-10-19,OH,15,Rasmussen (Pulse Opinion Research),800,48,47
@@ -1056,6 +1069,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-19,GA,15,SurveyMonkey,5979,49,49
 2020-10-19,FL,15,SurveyMonkey,14196,49,49
 2020-10-19,DE,15,SurveyMonkey,1044,63,35
+2020-10-19,DC,15,SurveyMonkey,765,88,10
 2020-10-19,CO,15,SurveyMonkey,5272,58,41
 2020-10-19,CA,15,SurveyMonkey,22797,62,36
 2020-10-19,AR,15,SurveyMonkey,1707,40,58
@@ -1126,6 +1140,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-18,AZ,16,SurveyMonkey,5973,53,45
 2020-10-18,AR,16,SurveyMonkey,1640,40,58
 2020-10-18,AL,16,SurveyMonkey,2710,38,60
+2020-10-18,DC,16,SurveyMonkey,727,88,10
 2020-10-18,WA,16,SurveyMonkey,7668,61,37
 2020-10-18,TX,16,SurveyMonkey,14047,47,51
 2020-10-18,TN,16,SurveyMonkey,3973,41,57
@@ -1172,6 +1187,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-17,GA,17,SurveyMonkey,5725,50,49
 2020-10-17,FL,17,SurveyMonkey,14126,49,49
 2020-10-17,DE,17,SurveyMonkey,969,65,34
+2020-10-17,DC,17,SurveyMonkey,718,88,9
 2020-10-17,CT,17,SurveyMonkey,2907,63,34
 2020-10-17,CO,17,SurveyMonkey,5054,58,41
 2020-10-17,AR,17,SurveyMonkey,1609,39,59
@@ -1231,6 +1247,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-16,HI,18,SurveyMonkey,934,67,31
 2020-10-16,GA,18,SurveyMonkey,5617,49,49
 2020-10-16,DE,18,SurveyMonkey,952,64,34
+2020-10-16,DC,18,SurveyMonkey,704,88,9
 2020-10-16,CO,18,SurveyMonkey,4955,57,41
 2020-10-16,CA,18,SurveyMonkey,22865,63,35
 2020-10-16,AR,18,SurveyMonkey,1577,39,59
@@ -1293,6 +1310,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-15,CO,19,SurveyMonkey,4722,57,41
 2020-10-15,AR,19,SurveyMonkey,1466,39,58
 2020-10-15,AL,19,SurveyMonkey,2449,39,59
+2020-10-15,DC,19,SurveyMonkey,674,88,10
 2020-10-15,WA,19,SurveyMonkey,7733,61,37
 2020-10-15,TN,19,SurveyMonkey,3644,40,58
 2020-10-15,OR,19,SurveyMonkey,3444,60,38
@@ -1350,6 +1368,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-14,GA,20,SurveyMonkey,5029,49,49
 2020-10-14,FL,20,SurveyMonkey,13016,49,48
 2020-10-14,DE,20,SurveyMonkey,848,65,33
+2020-10-14,DC,20,SurveyMonkey,612,88,10
 2020-10-14,CT,20,SurveyMonkey,2453,63,34
 2020-10-14,CO,20,SurveyMonkey,4345,57,42
 2020-10-14,AL,20,SurveyMonkey,2265,39,59
@@ -1420,6 +1439,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-13,IA,21,SurveyMonkey,2058,49,49
 2020-10-13,HI,21,SurveyMonkey,755,64,35
 2020-10-13,FL,21,SurveyMonkey,12736,49,49
+2020-10-13,DC,21,SurveyMonkey,565,88,10
 2020-10-13,CT,21,SurveyMonkey,2197,62,35
 2020-10-13,CO,21,SurveyMonkey,4111,57,41
 2020-10-13,AZ,21,SurveyMonkey,5690,51,48
@@ -1490,6 +1510,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-10-12,WY,22,SurveyMonkey,409,35,63
 2020-10-12,AK,22,SurveyMonkey,751,43,55
 2020-10-12,CA,22,SurveyMonkey,21492,63,36
+2020-10-12,DC,22,SurveyMonkey,543,87,10
 2020-10-12,ID,22,SurveyMonkey,1123,39,59
 2020-10-12,IA,22,SurveyMonkey,1998,49,49
 2020-10-12,KY,22,SurveyMonkey,2109,40,58
@@ -1673,6 +1694,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-09-30,GA,34,SurveyMonkey,3468,49.08,48.43
 2020-09-30,FL,34,SurveyMonkey,12962,50.52,47.19
 2020-09-30,DE,34,SurveyMonkey,395,61.24,37.16
+2020-09-30,DC,34,SurveyMonkey,343,86.34,12.04
 2020-09-30,CT,34,SurveyMonkey,1415,61.25,37.07
 2020-09-30,CO,34,SurveyMonkey,2717,56.97,41.45
 2020-09-30,CA,34,SurveyMonkey,20346,63.3,34.78
@@ -1985,6 +2007,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-08-31,GA,64,SurveyMonkey,2772,49,49
 2020-08-31,FL,64,SurveyMonkey,12286,48,50
 2020-08-31,DE,64,SurveyMonkey,348,67,32
+2020-08-31,DC,64,SurveyMonkey,252,83,16
 2020-08-31,CT,64,SurveyMonkey,1009,64,35
 2020-08-31,CO,64,SurveyMonkey,2385,57,41
 2020-08-31,CA,64,SurveyMonkey,17537,63,35
@@ -2175,6 +2198,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-07-31,GA,95,SurveyMonkey,3745,45.22,53
 2020-07-31,FL,95,SurveyMonkey,13945,49.29,48
 2020-07-31,DE,95,SurveyMonkey,453,67.32,31
+2020-07-31,DC,95,SurveyMonkey,290,90.53,8
 2020-07-31,CT,95,SurveyMonkey,1360,59.38,38.67
 2020-07-31,CO,95,SurveyMonkey,2337,57.78,40.36
 2020-07-31,CA,95,SurveyMonkey,19027,63.1,34.77
@@ -2343,6 +2367,7 @@ end_date,state,days_left,pollster,sample_size,biden,trump
 2020-06-30,GA,126,SurveyMonkey,2059,48.54,49.15
 2020-06-30,FL,126,SurveyMonkey,5663,46.93,51.12
 2020-06-30,DE,126,SurveyMonkey,232,64.14,33.68
+2020-06-30,DC,126,SurveyMonkey,151,86.95,10.51
 2020-06-30,CT,126,SurveyMonkey,574,65.21,32.08
 2020-06-30,CO,126,SurveyMonkey,1088,56.56,41.79
 2020-06-30,CA,126,SurveyMonkey,8412,62.19,35.7
