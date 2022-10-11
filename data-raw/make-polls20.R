@@ -6,18 +6,49 @@ library(lubridate)
 ## https://github.com/fivethirtyeight/data/tree/master/polls
 polls20 <- read_csv("president_polls_historical.csv")
 
-polls20 <- polls20 |>
+state_df <- tibble(
+  state = state.name,
+  state_po = state.abb
+) |>
+  bind_rows(tibble(state = "US", state_po = "US"))
+
+national_polls20 <- polls20 |>
   mutate(
-    start_date = mdy(start_date),
     end_date = mdy(end_date),
-    days_left = as.numeric(ymd("2020-11-03") - end_date)
-    ) |>
+  ) |>
   filter(
+    is.na(state),
     answer %in% c("Biden", "Trump"),
     end_date > "2020-06-01",
     population == "lv"
     ) |>  
-  select(end_date, days_left, pollster, sample_size, answer, pct) |>
+  select(end_date, pollster, sample_size, answer, pct) |>
+  pivot_wider(
+    names_from = answer,
+    values_from = pct,
+    values_fn = mean,
+    ) |>
+  rename(biden = Biden, trump = Trump)
+
+save(national_polls20, file = "../data/national_polls20.rda")
+write_csv(national_polls20, file = "national_polls20.csv")
+
+
+polls20 <- polls20 |>
+  mutate(
+    end_date = mdy(end_date),
+    days_left = as.numeric(ymd("2020-11-03") - end_date)
+  ) |>
+  left_join(state_df) |>
+  select(-state) |>
+  rename(state = state_po) |>  
+  filter(
+    !is.na(state),
+    answer %in% c("Biden", "Trump"),
+    end_date > "2020-06-01",
+    population == "lv"
+    ) |>  
+  select(end_date, state, days_left, pollster, sample_size, answer, pct) |>
   pivot_wider(
     names_from = answer,
     values_from = pct,

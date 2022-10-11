@@ -64,6 +64,21 @@
 #' 
 "polls20"
 
+#' @rdname polls20
+"national_polls20"
+
+
+#' Presidential polling data, 2020
+#'
+#' Data from 528 on national and state-level polling for Joe Biden and
+#' Donald Trump in the 2020 US presidential election
+#'
+#' 
+#' @source  https://github.com/fivethirtyeight/data/tree/master/polls
+#'
+#' 
+"polls20"
+
 
 #' Presidential election results, 2020
 #'
