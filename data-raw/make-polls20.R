@@ -9,14 +9,15 @@ polls20 <- read_csv("president_polls_historical.csv")
 polls20 <- polls20 |>
   mutate(
     start_date = mdy(start_date),
-    end_date = mdy(end_date),    
+    end_date = mdy(end_date),
+    days_left = as.numeric(ymd("2020-11-03") - end_date)
     ) |>
   filter(
     answer %in% c("Biden", "Trump"),
     end_date > "2020-06-01",
     population == "lv"
     ) |>  
-  select(end_date, pollster, sample_size, answer, pct) |>
+  select(end_date, days_left, pollster, sample_size, answer, pct) |>
   pivot_wider(
     names_from = answer,
     values_from = pct,
