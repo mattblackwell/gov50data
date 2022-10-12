@@ -92,6 +92,17 @@
 "pres20"
 
 
+#' Data from a person's daily measurements of activity and weight
+#'
+#' Measurements of a person's weight and activity collected via
+#' internet connected devices. 
+#'
+#' 
+#' @source  Personal correspondence 
+#'
+#' 
+"health"
+
 
 
 #' @importFrom tibble tibble
