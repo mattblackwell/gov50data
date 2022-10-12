@@ -2,6 +2,7 @@ library(tidyverse)
 
 health <- read_csv("health-raw.csv") |>
   rename(
+    active_calories = active.calories,
     steps_lag = steps.lag,
     calorie_lag = calorie.lag
   )
