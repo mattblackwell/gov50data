@@ -103,6 +103,17 @@
 #' 
 "health"
 
+#' Election prediction data for US midterms
+#'
+#' Data on change in seats for the president's party, presdential
+#' approval, and percentage change in real disposable income
+#'
+#' 
+#' @source  Varied
+#'
+#' 
+"midterms"
+
 
 
 #' @importFrom tibble tibble
