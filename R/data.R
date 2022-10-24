@@ -114,6 +114,16 @@
 #' 
 "midterms"
 
+#' Data on the distribution of college years in an undergraduate class
+#'
+#' One column data frame with the year of college or graduate school
+#' for a class 
+#'
+#' 
+#' @source  Personal correspondence 
+#'
+#' 
+"class_years"
 
 
 #' @importFrom tibble tibble
