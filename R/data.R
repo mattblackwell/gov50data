@@ -125,6 +125,14 @@
 #' 
 "class_years"
 
+#' Selected variables from ANES 2020
+#'
+#' Selected variables from the American National Election Study (2020)
+#'
+#' @source https://electionstudies.org
+#' 
+"anes"
+
 
 #' @importFrom tibble tibble
 NULL
