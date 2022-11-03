@@ -133,6 +133,14 @@
 #' 
 "anes"
 
+#' Boston commuter rail outgroup exposure study
+#'
+#' Data on an experiment exposing commuter rail riders to outgroup members
+#'
+#' @source Enos (2014)
+#' 
+"trains"
+
 
 #' @importFrom tibble tibble
 NULL
