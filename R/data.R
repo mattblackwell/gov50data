@@ -141,6 +141,15 @@
 #' 
 "trains"
 
+#' Lady Tasting Tea data
+#'
+#' Tibble of randomly assorted cups of tea either poured milk first or
+#' tea first with the Lady's guesses from Fisher's Lady Tasting Tea example
+#'
+#' @source Fisher (1935).
+#' 
+"tea"
+
 
 #' @importFrom tibble tibble
 NULL
