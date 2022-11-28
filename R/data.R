@@ -150,6 +150,15 @@
 #' 
 "tea"
 
+#' Cross-national data on economic growth
+#'
+#' Data on the long-run effect of colonial institutions on economic
+#' growth 
+#'
+#' @source Acemoglu, Johnson, and Robinson (2001)
+#' 
+"ajr"
+
 
 #' @importFrom tibble tibble
 NULL
