@@ -41,7 +41,7 @@ tv_ideology <- tv_ideology %>% ungroup %>% select(-year)
 
 days <- segments %>% 
   group_by(station_id, dmacode, callsign, affiliation, date) %>%
-  summarize(across(where(is.numeric), mean, na.rm = TRUE)) %>%
+  summarize(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) %>%
   left_join(tv_ideology)
 
 days <- ungroup(days) %>% 	
@@ -68,7 +68,8 @@ news <- days |>
   select(callsign, affiliation, date, weekday, ideology, national_politics,
          local_politics, sinclair2017, post,
          month) |>
-  arrange(date, callsign, affiliation)
+  arrange(date, callsign, affiliation) |>
+  na.omit()
 
 write_csv(news, "data-raw/news.csv")
 save(news, file = "data/news.rda")
